@@ -3,7 +3,7 @@ import { FaBook } from 'react-icons/fa'
 
 export default class TodoInput extends Component {
   render() {
-    const { item, handleChange, handleSubmit } = this.props
+    const { item, handleChange, handleSubmit, editItem } = this.props
     return (
       <div className="card card-body my-3">
         <form onSubmit={handleSubmit}>
@@ -21,8 +21,13 @@ export default class TodoInput extends Component {
               onChange={handleChange}
             />
           </div>
-          <button className="btn btn-block mt-3 btn-primary" type="submit">
-            Add Item
+          <button
+            className={`btn btn-block mt-3 ${
+              editItem ? 'btn-success' : 'btn-primary'
+            }`}
+            type="submit"
+          >
+            {editItem ? 'Edit Item' : 'Add Item'}
           </button>
         </form>
       </div>
