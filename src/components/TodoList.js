@@ -4,10 +4,16 @@ import TodoItem from './TodoItem'
 export default class TodoList extends Component {
   render() {
     return (
-      <div>
-        Hello from TodoList
+      <ul className="list-group my-5">
+        <h3 className="text-capitalize text-center">todo list</h3>
         <TodoItem />
-      </div>
+        <button
+          className="btn btn-danger btn-block text-capitalize mt-5"
+          type="button"
+        >
+          clear list
+        </button>
+      </ul>
     )
   }
 }

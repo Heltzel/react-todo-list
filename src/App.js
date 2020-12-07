@@ -6,10 +6,14 @@ import TodoList from './components/TodoList'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello from App</h1>
-      <TodoInput />
-      <TodoList />
+    <div className="App container">
+      <div className="row">
+        <div className="col-10 mx-auto col-md-8 mt-4">
+          <h3 className="text-capitalize text-center">todo input</h3>
+          <TodoInput />
+          <TodoList />
+        </div>
+      </div>
     </div>
   )
 }

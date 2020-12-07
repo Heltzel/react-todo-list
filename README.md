@@ -14,9 +14,11 @@
 
 ## docs:
 
-Bootstrap:   https://getbootstrap.com/ <br/>
-Uuid:        https://github.com/uuidjs/uuid#readme <br/>
-React Icons  https://react-icons.github.io/react-icons/ <br/>
+| Subject                | Link                                                |
+| :---                   | :----                                               | 
+| Bootstrap              | https://getbootstrap.com/                           |  
+| Bootstrap cheatsheet   | https://hackerthemes.com/bootstrap-cheatsheet/      | 
+| Uuid                   | https://github.com/uuidjs/uuid#readme               | 
+| React Icons            | https://react-icons.github.io/react-icons/          | 
 
 ***
-
