@@ -7,4 +7,16 @@
 <li>Controled input</li>
 <li>Dynamic form</li>
 </ul>
-# react-todo-list
+
+
+***
+
+
+## docs:
+
+Bootstrap:   https://getbootstrap.com/ <br/>
+Uuid:        https://github.com/uuidjs/uuid#readme <br/>
+React Icons  https://react-icons.github.io/react-icons/ <br/>
+
+***
+
